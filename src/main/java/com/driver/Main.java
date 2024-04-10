@@ -6,7 +6,7 @@ public class Main {
     String result = obj.meth();
 }
 class A{
-    public static String meth()
+    public String meth()
     {
         String ans = "Invoking method from class A";
 
@@ -14,7 +14,7 @@ class A{
     }
 }
 class B extends A{
-    public static String meth()
+    public String meth()
     {
         String ans = "Method is overridden in Extendend class B";
         return ans;
